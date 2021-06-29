@@ -1,0 +1,147 @@
+<html>
+<head>
+  <title>Online pizza order Form</title>
+ 
+</head>
+<!--BODY -->
+<body bgcolor="#E29638" text="white">
+    <h1 align="centre"><u>Yummy Chessy Pizza</u></h1>
+    <table align="center">
+	<tr>
+	    <td valign="bottom"><img src="C:\Users\Sai\Downloads\pizza (1).png" width=100 height=100> </td>   
+	    <td valign="bottom"><img src="C:\Users\Sai\Downloads\pizza 2.png" width=150 height=150> </td>   
+	    <td valign="bottom"><img src="C:\Users\Sai\Downloads\pizza 3.png" width=200 height=200> </td>
+	    <td valign="bottom"><img src="C:\Users\Sai\Downloads\Pizza.png" width=250 height=250> </td>
+	  </tr>
+	  <tr>
+	     <td ><h3 align="centre">Small Pizza</h3></td>
+	     <td ><h3 align="centre">Medium Pizza</h3></td>
+	     <td ><h3 align="centre">Large Pizza</h3></td>
+	     <td ><h3 align="centre">Faily Pizza</h3></td>
+	  </tr>
+	</table> 
+
+	<!--DIV-->
+	<div style="width : 80% ; margin : auto;">
+	
+	<!--FORM-->
+	<form method="post" name="forms" action="index. html" width=70%>
+
+	<!--DIV-->
+	<div style=width : 80%; margin:auto;">
+	
+	<!FORM-->
+	<form method="post" name=forms" action="index.html" width=70%>
+
+	
+	<!--PERSONAL INFORMATION-->
+		<fieldset>
+		<legend> Personal Information</legend>
+	      <label> First Name:</lable><input type="text" name="fname" size=25/>
+	      <label> last Name:</lable><input type="text" name="lname" size=25/>
+	      <label> mobile #:</lable><input type="text" name="mobile" size=25/>
+	      <lable>Address: <textarea col=70 rows=1 name="address"></textarea></lable>
+
+		</fiedlset>
+
+		<!--ORDER DETAILS-->
+		<fieldset>
+		 <legend>Order Details</legend>
+	     	 <select name="size">
+		 <option>Select Pizza Size</option>
+		 <option value="1">Small</option>
+		 <option value="2">Medium</option> 
+		 <option value="3">Large</option> 
+		 <option value="4">Family</option> 
+		</select>
+		<select name="Quantity" >
+		<option >Select Quantity</option>
+		  <option value ="1">1</option>
+		  <option value ="2">2</option>
+		  <option value ="3">3</option>
+		  <option value ="4">4</option>
+		</select>>
+		<lable> Delivery Date:</lable><input type="date" name="date"/>
+		<lable> Delivery Time:</lable><input type="date" name="date"/>
+		<select name="payment">
+		<option>Select Payment Option</option>
+		<option value="1">Easy Paisa</option>
+		<option value="2">Mobicash</option>
+		<option value="3">Bank Transfer</option>
+		<option value="4">Cash On Delivery</option>
+	      </select>
+	      </fieldset>
+
+              <!--CHEESES-->
+              <fieldset>
+                <legend>Cheeses</legend>
+               <input type="radio" name="cheese" value="1"/>Mozzarella
+               <input type="radio" name="cheese" value="2"/>Reduced Fat
+               <input type="radio" name="cheese" value="3"/>Fea
+               <input type="radio" name="cheese" value="4"/>provolone
+              <input type="radio" name="cheese" value="5"/>cheddar
+             <input type="radio" name="cheese" value="6"/>Parmesan
+           </fieldset>
+
+           <!--SAUCES-->
+           <fieldset>
+             <legend>Sauces</legend>
+             <input type="radio" name="sauce" value="1"/>Pizza Sauce
+            <input type="radio" name="sauce" value="2"/>BBQ sauce
+            <input type="radio" name="sauce" value="3"/>Garlic sauce
+            <input type="radio" name="sauce" value="4"/>Pesto
+            <input type="radio" name="sauce" value="5"/>Garlic Ranch sauce
+            <input type="radio" name="sauce" value="6"/>Creamy Bechamel sauce
+            <input type="radio" name="sauce" value="7"/>Hummus
+            <input type="radio" name="sauce" value="8"/>Buffalo sauce
+          </fieldset>
+
+          <!--COLD DRINKS-->
+          <fieldset>
+            <legend>Cold Drink</legend>
+            <input type="radio" name="drink" value="1"/>Coke
+            <input type="radio" name="drink" value="2"/>Pepsi
+            <input type="radio" name="drink" value="3"/>7UP
+            <input type="radio" name="drink" value="4"/>Dew
+            <input type="radio" name="drink" value="5"/>Fanta
+            <input type="radio" name="drink" value="6"/>Mirinda
+            <input type="radio" name="drink" value="7"/>Sprite
+          </fieldset>
+
+          <!--TOPINGS-->
+          <fieldset>
+            <legend>Choose Toppings-Rs.100 Each</legend>
+            <input type="radio" name="topping" value="1"/>Anchovies
+            <input type="radio" name="topping" value="2"/>Pepperoni
+            <input type="radio" name="topping" value="3"/>salami
+            <input type="radio" name="topping" value="4"/>Sausage
+            <input type="radio" name="topping" value="5"/>Broccoli
+            <input type="radio" name="topping" value="6"/>Green Olives
+            <input type="radio" name="topping" value="7"/>Green Peppers
+            <input type="radio" name="topping" value="8"/>Mushrooms
+            <input type="radio" name="topping" value="9"/>Red Onions
+            <input type="radio" name="topping" value="10"/>Roasted Garlic
+            <input type="radio" name="topping" value="11"/>Red Peppers
+            <input type="radio" name="topping" value="12"/>Olives Garlic
+         </fieldset>
+
+         <!--SPECIAL INSTRUCTIONS-->
+         <fieldset>
+           <legend>Special Instructions</legend>
+           <textarea name="instructions" rows="3" cols="42"></textarea>
+         </fieldset>
+
+         <!--BUTTONS-->
+
+
+         <input type="submit" value="PLACE YOUR ORDER"/>
+         <input type="reset" value="START OVER"/>
+
+
+         </div>
+
+    </form>
+
+  </body>
+
+</html>
